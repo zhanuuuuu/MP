@@ -22,7 +22,7 @@
                 url: "../../GetWX_Get_Config",
                 data: {"openid": "<%=request.getParameter("openid")%>"},
                 success: function (data) {
-                    var o = JSON.parse(data);
+                    let o = JSON.parse(data);
                     wx.config({
                         debug: false,
                         appId: o.appId,

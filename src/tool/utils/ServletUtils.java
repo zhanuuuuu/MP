@@ -36,7 +36,7 @@ public class ServletUtils {
             ipAddress = request.getRemoteAddr();
 
             if(ipAddress.equals("127.0.0.1") || ipAddress.equals("0:0:0:0:0:0:0:1")){
-                //����������ȡ�������õ�IP��ַ
+
                 InetAddress inetAddress = null;
                 try {
                     inetAddress = InetAddress.getLocalHost();
@@ -46,8 +46,6 @@ public class ServletUtils {
                 ipAddress = inetAddress.getHostAddress();
             }
         }
-
-        //����ͨ�����������������һ��IPΪ�ͻ�����ʵ��IP��ַ�����IP����','�ָ�
         if(null != ipAddress && ipAddress.length() > 15){
 
             if(ipAddress.indexOf(",") > 0){

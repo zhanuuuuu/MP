@@ -49,7 +49,7 @@ public class Wei_Xin_Automatic_integration extends HttpServlet {
         System.out.println("扫码积分" + VIP);
         String sql = "";
         try {
-            connp = GetConnection.getConn();
+            connp = GetConnection.getSuperMarket_Conn();
             conn = GetConnection.getPosmanagement_mainStoreConn();
             conn.setAutoCommit(false);
             connp.setAutoCommit(false);
@@ -65,7 +65,7 @@ public class Wei_Xin_Automatic_integration extends HttpServlet {
                 ResultSet rss = pasts.executeQuery();
                 if (rss.next()) {
                     String vipno = rss.getString("vipno");
-                    if (String_Tool.isEmpty(vipno)) {//�����null
+                    if (String_Tool.isEmpty(vipno)) {
 
                         String sql1 = "update t_vip set fcurvalue=fcurvalue+?,fCurValue_Pos=fCurValue_Pos+? where cVipNo=?";
                         PreparedStatement pastp = conn.prepareStatement(sql1);
