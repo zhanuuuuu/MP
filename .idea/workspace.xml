@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79dddd29-5258-4ec8-a7ee-1201ebcea66c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/mpwx/mpwx.war" afterPath="$PROJECT_DIR$/out/artifacts/mpwx/mpwx.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java" afterPath="$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/conf.properties" afterPath="$PROJECT_DIR$/src/conf.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/conf.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/conf.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,66 +78,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WX_Vip_Card_Action.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wx/v1/WX_Vip_Card_Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1804">
-              <caret line="104" column="30" lean-forward="false" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
-              <folding>
-                <marker date="1505869557000" expanded="true" signature="2523:2572" ph="select * fro... t_vip" />
-                <marker date="1505869557000" expanded="true" signature="3452:3579" ph="insert into t_vip... " />
-                <marker date="1505869557000" expanded="true" signature="4553:4700" ph="update t_vip... " />
-                <marker date="1505869557000" expanded="true" signature="5436:5522" ph="update t_vip... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scan.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/jsp/scan.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="55" column="72" lean-forward="false" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sign.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/jsp/sign.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-519">
-              <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conf.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/conf.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="132">
+              <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1506060490000" expanded="true" signature="863:1083" ph="..." />
               </folding>
@@ -141,11 +100,88 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Wei_Xin_Automatic_integration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Automatic_integration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1505980361000" expanded="true" signature="2201:2244" ph="select cVipn... t_Vip" />
+                <marker date="1505980361000" expanded="true" signature="2450:2531" ph="select * fro... lsd" />
+                <marker date="1505980361000" expanded="true" signature="2929:3012" ph="update t_vip... " />
+                <marker date="1505980361000" expanded="true" signature="3471:3557" ph="UPDATE lsd s... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wei_Xin_Vip_Check_In.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding>
+                <marker date="1506066773000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
+                <marker date="1506066773000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
+                <marker date="1506066773000" expanded="true" signature="2604:2647" ph="select cVipn... t_Vip" />
+                <marker date="1506066773000" expanded="true" signature="2839:2922" ph="update t_vip... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetWX_VIP_Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wx/v1/GetWX_VIP_Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1505869557000" expanded="true" signature="1621:1713" ph="select cVipn... t_vip" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Select_SignDays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Select_SignDays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <marker date="1505869557000" expanded="true" signature="1233:1358" ph="select DateP... Wei_Xin_Vip_Check_In" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bind.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/jsp/bind.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="1562">
               <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/version.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,28 +190,8 @@
       <file leaf-file-name="profile.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pages/jsp/profile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
+            <state relative-caret-position="2530">
               <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/jsp/404.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetWX_OpenID.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wx/v1/GetWX_OpenID.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -212,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/pages/common/fastclick.js" />
         <option value="$PROJECT_DIR$/web/pages/css/base.min.css" />
         <option value="$PROJECT_DIR$/src/tool/RequestResult.java" />
         <option value="$PROJECT_DIR$/src/tool/Test.java" />
@@ -263,6 +278,7 @@
         <option value="$PROJECT_DIR$/web/pages/jsp/bind.jsp" />
         <option value="$PROJECT_DIR$/src/db.properties" />
         <option value="$PROJECT_DIR$/src/conf.properties" />
+        <option value="$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java" />
       </list>
     </option>
   </component>
@@ -443,6 +459,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -587,9 +606,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1338,7 +1354,8 @@
       <workItem from="1505965056473" duration="968000" />
       <workItem from="1505979051367" duration="3256000" />
       <workItem from="1505987088520" duration="1216000" />
-      <workItem from="1506048547278" duration="4234000" />
+      <workItem from="1506048547278" duration="6117000" />
+      <workItem from="1506066355564" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="be secret">
       <created>1506060812067</created>
@@ -1347,11 +1364,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506060812068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="be secret">
+      <created>1506060822474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506060822474</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69727000" />
+    <option name="totallyTimeSpent" value="72330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="23" width="1387" height="877" extended-state="6" />
@@ -1375,10 +1399,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49808916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27434945" sideWeight="0.47948718" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2780669" sideWeight="0.47948718" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2453505" sideWeight="0.5205128" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1503,22 +1527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/GetWX_VIP_Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Select_SignDays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1543,13 +1551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wx/v2/CommonUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/tool/HttpTool.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1562,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-94">
           <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1606,9 +1605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1658,9 +1654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1672,44 +1665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/version.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Automatic_integration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
-          <folding>
-            <marker date="1505980361000" expanded="true" signature="2201:2244" ph="select cVipn... t_Vip" />
-            <marker date="1505980361000" expanded="true" signature="2450:2531" ph="select * fro... lsd" />
-            <marker date="1505980361000" expanded="true" signature="2929:3012" ph="update t_vip... " />
-            <marker date="1505980361000" expanded="true" signature="3471:3557" ph="UPDATE lsd s... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/js/myvip.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="58" column="117" lean-forward="false" selection-start-line="58" selection-start-column="117" selection-end-line="58" selection-end-column="117" />
-          <folding>
-            <marker date="1505869557000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
-            <marker date="1505869557000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
-            <marker date="1505869557000" expanded="true" signature="2536:2622" ph="update t_vip... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1776,7 +1735,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/jsp/bind.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="1562">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
@@ -1784,27 +1743,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/jsp/profile.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
+        <state relative-caret-position="2530">
           <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/db.properties">
+    <entry file="file://$PROJECT_DIR$/src/version.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/GetWX_VIP_Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
-            <marker date="1506060490000" expanded="true" signature="863:1083" ph="..." />
+            <element signature="imports" expanded="false" />
+            <marker date="1505869557000" expanded="true" signature="1621:1713" ph="select cVipn... t_vip" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Select_SignDays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1505869557000" expanded="true" signature="1233:1358" ph="select DateP... Wei_Xin_Vip_Check_In" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Automatic_integration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1505980361000" expanded="true" signature="2201:2244" ph="select cVipn... t_Vip" />
+            <marker date="1505980361000" expanded="true" signature="2450:2531" ph="select * fro... lsd" />
+            <marker date="1505980361000" expanded="true" signature="2929:3012" ph="update t_vip... " />
+            <marker date="1505980361000" expanded="true" signature="3471:3557" ph="UPDATE lsd s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <marker date="1506066773000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
+            <marker date="1506066773000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
+            <marker date="1506066773000" expanded="true" signature="2604:2647" ph="select cVipn... t_Vip" />
+            <marker date="1506066773000" expanded="true" signature="2839:2922" ph="update t_vip... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/conf.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="132">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1506060490000" expanded="true" signature="863:1083" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

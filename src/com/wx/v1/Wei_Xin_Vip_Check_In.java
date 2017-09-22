@@ -56,15 +56,22 @@ public class Wei_Xin_Vip_Check_In extends HttpServlet {
                 past1.setString(3, String_Tool.DataBaseTime());
                 int a = past1.executeUpdate();
                 DB.closePreparedStatement(past1);
-                String sql1 = "update t_vip set fcurvalue=fcurvalue+?,fCurValue_Pos=fCurValue_Pos+? where cWeixinID=?";
 
+                String cVipno="";
+                PreparedStatement past_s=conn.prepareStatement("select cVipno from t_Vip  where cWeixinID=? ");
+                ResultSet rs1=past_s.executeQuery();
+                if(rs1.next()){
+                    cVipno=rs1.getString("cVipno");
+                }
+
+                String sql1 = "update t_vip set fcurvalue=fcurvalue+?,fCurValue_Pos=fCurValue_Pos+? where cVipno=?";
                 String scoreStr = new ReadConfig().getProp("/conf.properties").getProperty("SIGN_GIFT_POINTS");
                 int score = Integer.parseInt(scoreStr);
 
                 PreparedStatement past_integral=conn2.prepareStatement(sql1);
                 past_integral.setBigDecimal(1, new BigDecimal(score));
                 past_integral.setBigDecimal(2, new BigDecimal(score));
-                past_integral.setString(3, openid);
+                past_integral.setString(3, cVipno);
                 past_integral.executeUpdate();
                 DB.closePreparedStatement(past_integral);
                 out.print("{\"resultStatus\":\"" + a + "\"," + "\"data\":\"" + a + "\"}");
