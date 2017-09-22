@@ -58,13 +58,18 @@
                 <input type="hidden" name="openid" id="openid" value="<%=request.getParameter("openid")%>"/>
                 <input type="hidden" name="action" value="0"/>
                 <input type="hidden" name="cardtype" value="积分卡"/>
-                <input type="button" class="btn" value="老会员绑定" onclick="checkUser()">
+                <input type="button" class="btn" value="老会员绑定" id="bind_button"  />
             </ul>
         </div>
     </form>
 </div>
 </body>
 <script type="text/javascript">
+
+    $("#bind_button").click(function() {
+        checkUser();
+    });
+
     function checkUser() {
         let [name, tel, cVipno, idCard, openid] = [document.getElementById("name").value, document.getElementById("cTel").value, document.getElementById("cVipno").value, document.getElementById("idCard").value, document.getElementById("openid").value];
         let inputs = [

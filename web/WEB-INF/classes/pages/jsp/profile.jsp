@@ -114,7 +114,6 @@
         return isJson;
     }
 
-
     $(function () {
         $.ajax({
             type: "GET",
