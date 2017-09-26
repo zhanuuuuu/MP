@@ -1,0 +1,74 @@
+/**
+ * Created by xwy_brh on 2017/8/23.
+ */
+
+* {
+    font-family: "Lato";
+}
+
+.sign_body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#calendar {
+    position: relative;
+    top: -1rem;
+}
+.sign_succ_calendar_title {
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    background-color: #ffffff;
+    color: #333333;
+}
+.sign_equal {
+    background-color: white;
+}
+.sign_equal .sign_row div{
+    /*border-bottom: 1px solid #e3e3e3;*/
+    /*border-radius: 50%;*/
+    /*-moz-border-radius: 50%;*/
+    /*-webkit-border-radius: 50%;*/
+}
+
+.table_cell_text {
+    position: relative;
+    display: block;
+    left:10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.sign_equal .sign_row:first-child div{
+    /*border-bottom: 1px solid #e3e3e3;*/
+    margin: 0;
+    background-color: #ffffff;
+    color: #999999;
+}
+.calendar_head_wrapper {
+    position: relative;
+}
+.sign_button_wrapper {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 5rem;
+    height: 5rem;
+    transform: translate(-50%, -50%);
+}
+#sign_button {
+    background: url("../images/sign@3x.png") no-repeat;
+    background-size: 5rem 5rem;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+#sign_note {
+    width: 100%;
+    text-align: center;
+}

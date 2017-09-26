@@ -1,0 +1,65 @@
+.wxApp {
+    background-color: white;
+    width: 100%;
+    margin-top: .5rem;
+}
+#vipFormID {
+    padding: .6rem .2rem;
+}
+.vipFormWrapper {
+    width:100%;
+    border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    background-color: white;
+}
+.vip_list {
+    padding: .4rem;
+}
+.vip_item {
+    border-bottom: 1px solid #ededed;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    height: 2rem;
+    display: flex;
+}
+.vip_form_title {
+    font-size: .8rem;
+    color: gray;
+}
+.vip_title {
+    position: relative;
+    display: inline-block;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    width: 3.2rem;
+    font-size: .7rem;
+}
+
+.vip_text {
+    display: inline-block;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    flex: 1;
+    padding-left: .2rem;
+    font-size: .7rem;
+}
+.btn {
+    margin-top: .4rem;
+    display: block;
+    background-color:#04be02;
+    width: 100%;
+    padding: .32rem 0rem;
+    font-size: .8rem;
+    text-align: center;
+    text-decoration: none;
+    overflow: visible;
+    border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #ffffff;
+    -webkit-tap-highlight-color: rgba(255,255,255,0.5);
+}

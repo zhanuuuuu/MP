@@ -1,0 +1,30 @@
+.cardtype_wrapper {
+    border-bottom: 1px solid #ededed;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    height: 2rem;
+    display: flex;
+}
+.cardtype_title {
+    position: relative;
+    display: inline-block;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    flex: 1;
+    font-size: .7rem;
+}
+
+.cardtype_content {
+    flex: 1;
+    height: 1.4rem;
+    /*background-color: #04be02;*/
+    /*color: white;*/
+    /*font-size: .7rem;*/
+    /*text-align: center;*/
+    /*-webkit-appearance:none;*/
+    /*-moz-appearance: none;*/
+    /*appearance:none;*/
+}
+.cardtype_item {
+
+}

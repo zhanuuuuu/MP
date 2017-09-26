@@ -1,0 +1,40 @@
+.func_wrapper {
+    text-align: center;
+}
+
+.func_list {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+}
+
+.func_item {
+    width: 33.3%;
+    padding: .3rem;
+}
+
+.func_item_wrapper {
+    position: relative;
+}
+
+.func_item_icon_wrapper {
+    position: relative;
+    width: 4rem;
+    height:4rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.func_item_icon {
+    position: relative;
+    display: block;
+    top:50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.func_item_title {
+    margin:0 0 .2rem 0;
+    font-size: .6rem;
+    color: #262626;
+}
