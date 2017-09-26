@@ -58,11 +58,13 @@ public class Wei_Xin_Vip_Check_In extends HttpServlet {
                 DB.closePreparedStatement(past1);
 
                 String cVipno="";
-                PreparedStatement past_s=conn.prepareStatement("select cVipno from t_Vip  where cWeixinID=? ");
+                PreparedStatement past_s=conn2.prepareStatement("select cVipno from t_Vip  where cWeixinID=? ");
                 ResultSet rs1=past_s.executeQuery();
                 if(rs1.next()){
                     cVipno=rs1.getString("cVipno");
                 }
+                DB.closeResultSet(rs1);
+                DB.closePreparedStatement(past_s);
 
                 String sql1 = "update t_vip set fcurvalue=fcurvalue+?,fCurValue_Pos=fCurValue_Pos+? where cVipno=?";
                 String scoreStr = new ReadConfig().getProp("/conf.properties").getProperty("SIGN_GIFT_POINTS");
