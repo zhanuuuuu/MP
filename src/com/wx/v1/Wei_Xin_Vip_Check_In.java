@@ -59,6 +59,7 @@ public class Wei_Xin_Vip_Check_In extends HttpServlet {
 
                 String cVipno="";
                 PreparedStatement past_s=conn2.prepareStatement("select cVipno from t_Vip  where cWeixinID=? ");
+                past_s.setString(1, openid);
                 ResultSet rs1=past_s.executeQuery();
                 if(rs1.next()){
                     cVipno=rs1.getString("cVipno");
