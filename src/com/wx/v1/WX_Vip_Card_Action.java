@@ -111,7 +111,7 @@ public class WX_Vip_Card_Action extends HttpServlet {
             } else if (action != null && action.equals("1")) {
                 cVipno = request.getParameter("cVipno");
                 System.out.println("cVipno=" + cVipno);
-                sql = " update t_vip set cVipName=? ,cWorkUnit=? ,cWeixinId=? ,fcurvalue=fcurvalue+?,fCurValue_Pos=fCurValue_Pos+? where cVipno=? and cWeixinId is not NULL";
+                sql = " update t_vip set cVipName=? ,cWorkUnit=? ,cWeixinId=? ,fcurvalue=fcurvalue+?,fCurValue_Pos=fCurValue_Pos+? where cVipno=?";
                 String scoreStr = new ReadConfig().getProp("/conf.properties").getProperty("BIND_GIFT_POINTS");
                 int score = Integer.parseInt(scoreStr);
 
