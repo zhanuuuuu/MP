@@ -1,33 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae5b3690-5f51-4de1-ab51-eeeaa609c1dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mpwx_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dbo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/mpwx.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata.keystream" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata.keystream.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata.values" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata.values.at" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata.values.s" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata_i" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_metadata_/metadata_i.len" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_src_/database/master/schema/dbo.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/storage.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jsp_api.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jsp_api.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="ae5b3690-5f51-4de1-ab51-eeeaa609c1dd" name="Default" comment="微信不为空的时候，也可以绑定">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/mpwx/mpwx.war" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mpwx.iml" afterPath="$PROJECT_DIR$/mpwx.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,27 +28,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Wei_Xin_Vip_Check_In.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Wei_Xin_Vip_Check_In.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="307">
+              <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1506413327000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
-                <marker date="1506413327000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
-                <marker date="1506413327000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
-                <marker date="1506413327000" expanded="true" signature="2931:3014" ph="update t_vip... " />
+                <marker date="1506414528000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
+                <marker date="1506414528000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
+                <marker date="1506414528000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
+                <marker date="1506414528000" expanded="true" signature="2976:3059" ph="update t_vip... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/conf.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="352">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetWX_OpenID.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wx/v1/GetWX_OpenID.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WXConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wxsdk/WXConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -81,8 +87,8 @@
       <file leaf-file-name="WX_Vip_Card_Action.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wx/v1/WX_Vip_Card_Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-920">
-              <caret line="117" column="50" lean-forward="true" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+            <state relative-caret-position="-1052">
+              <caret line="117" column="50" lean-forward="false" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
               <folding>
                 <marker date="1506413327000" expanded="true" signature="2523:2572" ph="select * fro... t_vip" />
                 <marker date="1506413327000" expanded="true" signature="3452:3579" ph="insert into t_vip... " />
@@ -106,8 +112,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java" />
         <option value="$PROJECT_DIR$/src/com/wx/v1/WX_Vip_Card_Action.java" />
+        <option value="$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java" />
+        <option value="$PROJECT_DIR$/src/conf.properties" />
+        <option value="$PROJECT_DIR$/src/db.properties" />
       </list>
     </option>
   </component>
@@ -116,6 +124,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
@@ -279,28 +294,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mpwx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mpwx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mpwx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -995,7 +988,7 @@
       <updated>1506349428777</updated>
       <workItem from="1506349435610" duration="444000" />
       <workItem from="1506393592192" duration="498000" />
-      <workItem from="1506413169132" duration="380000" />
+      <workItem from="1506413169132" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="修改了关闭数据连接的一些问题">
       <created>1506413540758</created>
@@ -1011,11 +1004,32 @@
       <option name="project" value="LOCAL" />
       <updated>1506413570572</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="微信不为空的时候，也可以绑定">
+      <created>1506413580634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506413580634</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加微信公众号配置">
+      <created>1506416040031</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506416040031</updated>
+    </task>
+    <task id="LOCAL-00005" summary="设置了sql参数">
+      <created>1506416073347</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1506416073347</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1322000" />
+    <option name="totallyTimeSpent" value="3528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1028,6 +1042,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1385" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1043,14 +1058,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5668317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25198555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25198555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1071,7 +1087,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了关闭数据连接的一些问题" />
     <MESSAGE value="微信不为空的时候，也可以绑定" />
-    <option name="LAST_COMMIT_MESSAGE" value="微信不为空的时候，也可以绑定" />
+    <MESSAGE value="添加微信公众号配置" />
+    <MESSAGE value="设置了sql参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置了sql参数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1088,10 +1106,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1506413327000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
-            <marker date="1506413327000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
-            <marker date="1506413327000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
-            <marker date="1506413327000" expanded="true" signature="2931:3014" ph="update t_vip... " />
+            <marker date="1506414528000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
+            <marker date="1506414528000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
+            <marker date="1506414528000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
+            <marker date="1506414528000" expanded="true" signature="2976:3059" ph="update t_vip... " />
           </folding>
         </state>
       </provider>
@@ -1102,18 +1120,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1506413327000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
-            <marker date="1506413327000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
-            <marker date="1506413327000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
-            <marker date="1506413327000" expanded="true" signature="2931:3014" ph="update t_vip... " />
+            <marker date="1506414528000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
+            <marker date="1506414528000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
+            <marker date="1506414528000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
+            <marker date="1506414528000" expanded="true" signature="2976:3059" ph="update t_vip... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wx/v1/WX_Vip_Card_Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-920">
-          <caret line="117" column="50" lean-forward="true" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+        <state relative-caret-position="-1052">
+          <caret line="117" column="50" lean-forward="false" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
           <folding>
             <marker date="1506413327000" expanded="true" signature="2523:2572" ph="select * fro... t_vip" />
             <marker date="1506413327000" expanded="true" signature="3452:3579" ph="insert into t_vip... " />
@@ -1123,25 +1141,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java">
+    <entry file="file://$PROJECT_DIR$/out/artifacts/mpwx/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1506413327000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
-            <marker date="1506413327000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
-            <marker date="1506413327000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
-            <marker date="1506413327000" expanded="true" signature="2931:3014" ph="update t_vip... " />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/mpwx/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/mpwx/version.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/mpwx/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/mpwx/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/GetWX_OpenID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wxsdk/WXConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/conf.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wx/v1/Wei_Xin_Vip_Check_In.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1506414528000" expanded="true" signature="1576:1664" ph="select cWeix... Wei_Xin_Vip_Check_In" />
+            <marker date="1506414528000" expanded="true" signature="2149:2222" ph="INSERT INTO Wei_Xin_Vip_Check_In... " />
+            <marker date="1506414528000" expanded="true" signature="2605:2648" ph="select cVipn... t_Vip" />
+            <marker date="1506414528000" expanded="true" signature="2976:3059" ph="update t_vip... " />
+          </folding>
         </state>
       </provider>
     </entry>
