@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dbo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.idea/dataSources/cffa917f-bc4e-4a07-8173-d703b1a61fd3/_src_/database/master/schema/dbo.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

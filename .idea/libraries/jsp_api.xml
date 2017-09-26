@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="jsp-api">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../IDEA/tomcat85/lib/jsp-api.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../IDEA/tomcat85/lib/servlet-api.jar!/" />
+      <root url="jar://$USER_HOME$/Utils/Tomcat85/lib/jsp-api.jar!/" />
+      <root url="jar://$USER_HOME$/Utils/Tomcat85/lib/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
