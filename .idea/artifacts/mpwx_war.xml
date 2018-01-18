@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="mpwx:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/mpwx_war</output-path>
+    <root id="archive" name="mpwx_war.war">
+      <element id="artifact" artifact-name="mpwx:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,39 @@
+{
+  "button": [
+    {
+      "type": "click",
+      "name": "测试用的",
+      "key": "V1001_TODAY_MUSIC"
+    },
+    {
+      "name": "微会员",
+      "sub_button": [
+        {
+          "type": "view",
+          "name": "会员注册",
+          "url": "http://www.warelucent.cc/mpwx/GetWX_CODE?action=1"
+        },
+        {
+          "type": "view",
+          "name": "会员绑定",
+          "url": "http://www.warelucent.cc/mpwx/GetWX_CODE?action=2"
+        },
+        {
+          "type": "view",
+          "name": "会员签到",
+          "url": "http://www.warelucent.cc/mpwx/GetWX_CODE?action=3"
+        },
+        {
+          "type": "view",
+          "name": "扫码积分",
+          "url": "http://www.warelucent.cc/mpwx/GetWX_CODE?action=4"
+        },
+        {
+          "type": "view",
+          "name": "我的会员",
+          "url": "http://www.warelucent.cc/mpwx/GetWX_CODE?action=5"
+        }
+      ]
+    }
+  ]
+}
