@@ -22,7 +22,7 @@ import tool.ReadConfig;
 import tool.RequestResult;
 import tool.String_Tool;
 
-@WebServlet(description = "register new vip", urlPatterns = {"/WX_Vip_Card_Action"})
+@WebServlet(description = "绑定送积分", urlPatterns = {"/WX_Vip_Card_Action"})
 public class WX_Vip_Card_Action extends HttpServlet {
     private static final long serialVersionUID = 1L;
 

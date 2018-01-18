@@ -34,7 +34,9 @@ public class GetWX_OpenID extends HttpServlet {
         String action = request.getParameter("action");
 
         String access_token_Url = "https://api.weixin.qq.com/sns/oauth2/access_token";
-
+/**
+ *
+ */
         String resultStr = HttpTool.GET(access_token_Url, "appid=" + appID + "&secret=" + appSecret + "&code=" + code + "&grant_type=authorization_code");
 
         try {
@@ -43,6 +45,7 @@ public class GetWX_OpenID extends HttpServlet {
             String ACCESS_TOKEN = obj.getString("access_token");
             String OPENID = obj.getString("openid");
             String refresh_token = obj.getString("refresh_token");
+
             String is_valid = HttpTool.GET("https://api.weixin.qq.com/sns/auth", "access_token=" + ACCESS_TOKEN + "&openid=" + OPENID);
             PrintUtils.print("is_valid_access_token:" + is_valid);
             JSONObject judgeStr = new JSONObject(is_valid);

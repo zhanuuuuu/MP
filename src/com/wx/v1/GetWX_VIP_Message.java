@@ -24,6 +24,7 @@ import java.util.Iterator;
 
 /**
  * Created by xwy_brh on 2017/8/23.
+ *
  */
 @WebServlet(description = "get user message", urlPatterns = {"/GetWX_VIP_Message"})
 public class GetWX_VIP_Message extends HttpServlet {

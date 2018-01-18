@@ -17,7 +17,10 @@ import db.DB;
 import db.GetConnection;
 import tool.String_Tool;
 
-@WebServlet(description = "微信积分", urlPatterns = {"/Wei_Xin_Automatic_integration"})
+/**
+ *  加积分
+ */
+@WebServlet(description = "微信扫码积分", urlPatterns = {"/Wei_Xin_Automatic_integration"})
 public class Wei_Xin_Automatic_integration extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -104,6 +107,10 @@ public class Wei_Xin_Automatic_integration extends HttpServlet {
                 DB.closePreparedStatement(pasts);
                 DB.closeConn(conn);
             } else {
+                conn.commit();
+                conn.setAutoCommit(true);
+                connp.commit();
+                connp.setAutoCommit(true);
                 out.print("{\"resultStatus\":\"" + 4 + "\"," + "\"data\":\"" + "此微信号没有绑定会员卡" + "\"}");
             }
         } catch (SQLException e) {

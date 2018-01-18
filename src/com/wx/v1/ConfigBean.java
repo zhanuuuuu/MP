@@ -1,7 +1,6 @@
 package com.wx.v1;
 
 public class ConfigBean {
-
     private String appId;
     private String url;
     private String jsapi_ticket;

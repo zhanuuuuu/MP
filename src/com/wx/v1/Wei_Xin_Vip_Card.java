@@ -18,6 +18,9 @@ import db.DB;
 import db.GetConnection;
 import tool.String_Tool;
 
+/**
+ * 加积分
+ */
 @WebServlet(description = "register new vip", urlPatterns = { "/Wei_Xin_Vip_Card" })
 public class Wei_Xin_Vip_Card extends HttpServlet {
     private static final long serialVersionUID = 1L;
